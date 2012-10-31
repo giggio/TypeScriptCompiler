@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>TypeScriptCompiler</id>
+        <version>0.8.0-alpha</version>
+        <title />
+        <authors>Giovanni Bassi</authors>
+        <owners>Giovanni Bassi</owners>
+        <projectUrl>https://github.com/giggio/TypeScriptCompiler</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A .NET wrapper around the TypeScript compiler written in TypeScript/JavaScript.</description>
+        <dependencies>
+            <group targetFramework=".NETFramework4.5">
+                <dependency id="Noesis.Javascript" version="0.7.1.0" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="TypeScriptCompiler\bin\x64\Debug\TypeScriptCompiler.dll" target="lib\net45\amd64\TypeScriptCompiler.dll" />
+        <file src="TypeScriptCompiler\bin\x86\Debug\TypeScriptCompiler.dll" target="lib\net45\x86\TypeScriptCompiler.dll" />
+    </files>
+</package>

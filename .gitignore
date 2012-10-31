@@ -1,4 +1,4 @@
-# Ignore file for Visual Studio 2010
+# Ignore file for Visual Studio 2012
 
 # use glob syntax
 syntax: glob
@@ -50,3 +50,4 @@ DB.sdf
 *.cscfg.bin
 packages/
 .nuget/
+TypeScriptCompiler.*.nupkg
