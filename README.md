@@ -9,6 +9,9 @@ TypeScript comes with a command line compiler, but not a callable library that
 you may reference on a .NET project. All usages so far of the compiler use the
 binary to compile. This library runs the JavaScript compiler directly.
 
+## Documentation
+
+Still has to be created. Please refer to [the blog post](http://blog.lambda3.com.br/2012/10/typescript-compiler-em-net/) to understand the circumstances of this project creation.
 
 ## Usage
 
